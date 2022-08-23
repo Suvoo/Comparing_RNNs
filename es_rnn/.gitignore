@@ -1,0 +1,7 @@
+*
+!/.gitignore
+!/requirements.txt
+!/README.md
+!/*.py
+!/lib
+!/lib/*.py

@@ -1,0 +1,10 @@
+input shape : (10, 6, 5)
+target shape: (10, 2, 3)
+masks shape : (10, 6, 3)
+
+This is what we were working with yesterday. As we discussed,the line
+pred_y = jax.vmap(model)(x)
+
+should have returned the vector of (10,6,3). Then after applying the mask it would result in the output being (10,2,3).
+
+But my pred_y is giving the output of (10,3). Is this a model error?
